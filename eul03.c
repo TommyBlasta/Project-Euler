@@ -1,5 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
+/*The prime factors of 13195 are 5, 7, 13 and 29.
+
+What is the largest prime factor of the number 600851475143 ?*/
 int najdi_delitel(long long int number)
 {
     for(int counter=2;counter!=number;counter++)
